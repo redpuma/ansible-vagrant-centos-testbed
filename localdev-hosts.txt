@@ -1,0 +1,7 @@
+
+# ansible-vagrant
+# add these to your hosts file
+#
+192.168.168.101 ans05.dev
+
+192.168.168.102 svr05.dev

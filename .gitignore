@@ -1,0 +1,6 @@
+# Ignore checked out version of an ansible project
+/ansible*
+
+# Ignore the vagrant directory
+/.vagrant
+

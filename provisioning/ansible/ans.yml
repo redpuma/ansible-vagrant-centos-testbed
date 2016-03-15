@@ -1,0 +1,10 @@
+---
+
+# 
+# Ansible playbook for provisioning vagrant environment ansible controller.
+# 
+
+- hosts: ans05.dev
+  gather_facts: yes
+  roles:
+    - { role: ansible, hostname: "ans05.dev", become: yes }
